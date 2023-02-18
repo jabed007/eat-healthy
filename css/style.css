@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.section-hero {
+  display: flex;
+  padding: 100px;
+  align-items: center;
+  background-image: url("images/shapes/Frame56.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-text-box {
+  width: 50%;
+}
+
+.heading-primary {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  width: 100%;
+  color: #555;
+  letter-spacing: -0.5px;
+}
+
+.skip-text {
+  color: #291fcd;
+}
+
+.hero-text {
+  margin-bottom: 30px;
+  color: rgb(109, 109, 109);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 16px 32px;
+  border-radius: 50px;
+
+  background-color: #291fcd;
+  color: #fff;
+  background-image: linear-gradient(
+    to right,
+    #051937,
+    #00215e,
+    #002784,
+    #0028aa,
+    #291fcd
+  );
+
+  /* Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  /* Put transition on original "state" */
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
+}
+
+.hero-image-box {
+  width: 50%;
+}
+
+.hero-image-box img {
+  width: 100%;
+}
+
+.section-about {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  padding: 0 100px;
+  background-image: url(images/shapes/Frame57.jpg);
+  background-position: cover;
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+.about-image-box {
+  width: 50%;
+}
+
+.about-image-box img {
+  width: 50%;
+}
+
+.about-text-box {
+  width: 38%;
+}
+
+.heading-secondary {
+  font-size: 40px;
+  font-weight: 700;
+  color: #6d6d6d;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #6d6d6d;
+  margin-bottom: 20px;
+}
+
+.section-recepie {
+  padding: 80px;
+}
+
+.section-recepie-text-box {
+  text-align: center;
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.heading-tertiary {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.recepie-text {
+  font-size: 18px;
+  font-weight: 400;
+  width: 700px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: #6d6d6d;
+}
+
+.recepie {
+  display: flex;
+  align-items: center;
+}
+
+.recepie-item {
+  padding: 30px;
+  width: 50%;
+  margin: 10px;
+  border-radius: 8%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.meal-img {
+  width: 100%;
+  height: 320px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+}
+
+.meal-conten {
+}
+
+.recepie-title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.recepie-description {
+  font-size: 18px;
+  font-weight: 500;
+  color: #6d6d6d;
+  padding-bottom: 30px;
+}
+
+.subscriber {
+  padding: 100px;
+}
+
+.platform {
+  border-radius: 20px;
+  padding: 80px;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.youtube,
+.instagram,
+.dribble {
+  width: 33.33%;
+}
+
+.youtube,
+.instagram {
+  margin-right: 30px;
+}
+
+.followers {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: #051937;
+  padding: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-text {
+  margin-bottom: 20px;
+}
